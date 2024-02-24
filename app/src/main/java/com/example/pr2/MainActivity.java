@@ -27,9 +27,12 @@ public class MainActivity extends AppCompatActivity {
 /*        ConstraintLayoutBinding binding = ConstraintLayoutBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());*/
         setContentView(R.layout.linear_layout);
+        Button buttonClick = findViewById(R.id.lin_button1);
+        Button button1Click = findViewById(R.id.button4);
          ImageView imageView = findViewById(R.id.lin_image1);
-         Button buttonClick = findViewById(R.id.lin_button1);
-         Button button1Click = findViewById(R.id.button4);
+         imageView.setImageResource(R.drawable.photo1);
+         TextView textView = findViewById(R.id.lin_text1);
+         textView.setText(getString(R.string.welcome_message));
         Intent intent = new Intent(this, SecondActivity.class);
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
