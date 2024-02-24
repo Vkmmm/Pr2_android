@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pr2</string>
+    <string name="welcome_message">Добро пожаловать!</string>
+    <string name="goodbay_message">До скорых встреч!</string>
+</resources>

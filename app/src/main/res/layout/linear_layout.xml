@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBE1DD"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lin_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFCCCC"
+        android:text="Выбери понравившихся котиков:"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_size_for_title" />
+
+    <ImageView
+        android:id="@+id/lin_image1"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        app:srcCompat="@drawable/photo1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Котик в банке"
+        android:onClick="onButtonClick"/>
+
+    <ImageView
+        android:id="@+id/lin_image2"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        app:srcCompat="@drawable/photo2" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Котик в цветочке" />
+
+    <ImageView
+        android:id="@+id/lin_image3"
+        android:layout_width="25mm"
+        android:layout_height="25mm"
+        app:srcCompat="@drawable/photo3" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Грустный котик" />
+
+    <Button
+        android:id="@+id/lin_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Ура я выбрал котиков!" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Это был LinerLayout"
+        android:hint="Тут можно писать"/>
+
+</LinearLayout>
